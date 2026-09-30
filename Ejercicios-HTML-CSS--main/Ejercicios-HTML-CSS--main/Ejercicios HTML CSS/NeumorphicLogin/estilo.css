@@ -1,0 +1,45 @@
+/* DJDLA - HTML y CSS */
+/* Estilos generales del cuerpo de la página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e5dff5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilo de la tarjeta (card) */
+.card {
+    width: 300px;
+    padding: 40px;
+    border-radius: 30px;
+    background: #e6dff5;
+    box-shadow: 9px 9px 16px rgba(179, 157, 219, 0.6),
+    -9px - 9px 16px rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+
+/* Estilo del titulo */
+h2 {
+    color: #4a148c;
+    margin-bottom: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* Estilo de los campos de entrada */
+input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    background: #e6dff5;
+    color: #4a148c;
+    box-sizing: border-box;
+    box-shadow: inset 6px 6px 12px #c5b3e6,
+                inset -6px -6px 12px #ffffff;
+    outline: none;
+}
